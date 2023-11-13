@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@color/white">
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -15,14 +14,14 @@
         <ImageView
             android:layout_width="175dp"
             android:layout_height="200dp"
-            android:id="@+id/imageViewAtasanWanita"
-            android:src="@drawable/baju1"
+            android:id="@+id/imageViewSepatuWanita"
+            android:src="@drawable/sepatu1"
             android:layout_gravity="center"
             android:background="@color/primary"
             />
 
         <TextView
-            android:id="@+id/textViewAtasanWanita"
+            android:id="@+id/textViewSepatuWanita"
             android:layout_width="175dp"
             android:layout_height="50dp"
             android:background="@color/description"
@@ -33,4 +32,5 @@
             android:textAlignment="center"
             android:textSize="10sp" />
     </LinearLayout>
+
 </androidx.cardview.widget.CardView>
