@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.TasPria"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.atasanPria"
+            android:exported="false" />
+        <activity
             android:name=".Activity.AksesorisWanita"
             android:exported="false" />
         <activity
